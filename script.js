@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     if (enteredPassword === correctPassword) {
         alert("Access granted!");
-        window.location.href = "https://example.com "; // Replace with the target site URL
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeYH_a1WojCnwy_qVJXPq5zR_ARUgpzcRdisZ66nmCsCnpubg/viewform?usp=header "; // Replace with the target site URL
     } else {
         alert("Incorrect password. Please try again.");
         passwordInput.value = ""; // Clear the password field
